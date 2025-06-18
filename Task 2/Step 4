@@ -1,0 +1,8 @@
+prompt = "a futuristic city at night with flying cars"
+image = pipe(prompt).images[0]
+
+# Display the image
+image.show()
+
+# Save image (optional)
+image.save("generated_image.png")
